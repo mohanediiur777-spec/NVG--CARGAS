@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARGAS IMC Plan Refinement 2025: Strategic Growth Through Conversion & Lubricants</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #1f2937; /* Dark Gray for text */
+            padding-bottom: 70px; /* Space for the fixed footer */
+        }
+        /* Custom Colors based on Brand Palette (Green/Yellow/Gold) */
+        .cargas-green { background-color: #00704A; } /* Deep Green */
+        .cargas-green-text { color: #00704A; }
+        .cargas-yellow { background-color: #FFC72C; } /* Gold/Yellow Accent */
+        .cargas-yellow-text { color: #FFC72C; }
+        .cargas-border { border-color: #00704A; }
+        .cargas-red { background-color: #8B0000; } /* Dark Red/Maroon for CARGAS Oil */
+        /* Professional Shadow for Cards */
+        .professional-shadow { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); }
+        
+        /* Fixed Footer styling */
+        .fixed-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 40;
+        }
+
+        /* Roadmap Timeline styling */
+        .timeline-card {
+            min-height: 250px;
+            position: relative;
+            z-index: 10;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white professional-shadow">
+        <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <!-- CARGAS/BP Combined Logo -->
+                <img src="https://ik.imagekit.io/weo7pcw8v/bpcgr.png?updatedAt=1759128947020" 
+                     alt="CARGAS NGV and BP Partnership Logo" 
+                     class="h-10 w-auto" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/150x40/00704A/FFC72C?text=CARGAS+Logo';"
+                />
+            </div>
+            <nav class="hidden md:flex space-x-6 text-gray-600 font-medium">
+                <a href="#hero" class="hover:cargas-green-text">Strategy</a>
+                <a href="#calculator" class="hover:cargas-green-text">Economics</a>
+                <a href="#impact" class="hover:cargas-green-text">Impact</a>
+                <a href="#roadmap" class="hover:cargas-green-text">Roadmap</a>
+                <a href="#visco-premium" class="hover:cargas-green-text">BP Visco</a>
+                <a href="#cargas-ngv" class="hover:cargas-green-text">CARGAS Oil</a>
+            </nav>
+            <div class="hidden md:block w-10"></div> <!-- Placeholder to maintain alignment -->
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION: A.1 Authority & Core Message -->
+    <section id="hero" class="cargas-green text-white pt-20 pb-16 md:pt-32 md:pb-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 text-center z-10 relative">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 leading-tight">
+                CARGAS IMC Plan Refinement 2025:
+            </h1>
+            <h2 class="text-3xl md:text-5xl font-light tracking-tight mb-10 leading-snug">
+                Strategic Growth Through Conversion & <span class="cargas-yellow-text font-extrabold">Lubricants.</span>
+            </h2>
+            <p class="text-xl md:text-2xl font-bold cargas-yellow-text mb-12">
+                Safe. Clean. Economic. Profitable.
+            </p>
+
+            <!-- A.1 Market Position (Three Key Metrics) -->
+            <div id="key-metrics" class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white/10 p-6 rounded-xl border border-white/20">
+                    <span class="block text-4xl font-extrabold cargas-yellow-text mb-1">336</span>
+                    <p class="text-sm md:text-lg opacity-90">CNG Stations Nationwide (Network Advantage)</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-xl border border-white/20">
+                    <span class="block text-4xl font-extrabold cargas-yellow-text mb-1">258,000+</span>
+                    <p class="text-sm md:text-lg opacity-90">Vehicles Converted To Date</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-xl border border-white/20">
+                    <span class="block text-4xl font-extrabold cargas-yellow-text mb-1">30,000</span>
+                    <p class="text-sm md:text-lg opacity-90">Annual Conversion Target (KPI)</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- A.1 Image Placement (Station/Network Visual Placeholder - Green/Yellow Focus) -->
+        <div class="absolute inset-0 opacity-10">
+            <!-- Updated placeholder to match brand colors and messaging -->
+            <div class="w-full h-full bg-[url('https://placehold.co/1200x800/00704A/FFC72C?text=CARGAS+NGV+Network+Station+Canopy')] bg-cover bg-center"></div>
+        </div>
+    </section>
+
+    <!-- 2. SAVINGS CALCULATOR (A.2 Interactive Element 1) -->
+    <section id="calculator" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-4 cargas-green-text">
+                Savings Calculator: Your Personal ROI
+            </h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+                Use our interactive tool to instantly calculate the economic benefit of converting your vehicle to CNG.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- INPUTS CARD: CARGAS GREEN background -->
+                <div class="p-8 cargas-green text-white rounded-xl professional-shadow border-l-8 cargas-yellow">
+                    <h3 class="text-xl font-extrabold cargas-yellow-text mb-6">1. Your Driving Data (Input)</h3>
+                    
+                    <form id="savings-form" class="space-y-6">
+                        <div>
+                            <label for="distance" class="block text-sm font-medium text-white">Annual Distance Driven (km)</label>
+                            <!-- Input fields remain white for usability, using yellow focus ring -->
+                            <input type="number" id="distance" value="20000" min="1000" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 focus:border-yellow-500 focus:ring-yellow-500 bg-white text-gray-800" placeholder="e.g., 20000">
+                        </div>
+                        <div>
+                            <label for="efficiency" class="block text-sm font-medium text-white">Kilometers Driven Per Liter (km/L)</label>
+                            <input type="number" id="efficiency" value="10" min="5" step="0.1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 focus:border-yellow-500 focus:ring-yellow-500 bg-white text-gray-800" placeholder="e.g., 10 (10 km per 1 liter)">
+                        </div>
+                        <div class="text-sm text-white pt-4">
+                            <p>Estimated Conversion Cost: <span class="font-bold cargas-yellow-text">EGP 11,540 - 15,290</span></p>
+                            <p class="text-xs italic text-white/70">The ROI calculation uses the conservative value of <span class="font-semibold">EGP 15,000</span> for the initial investment.</p>
+                            <p class="mt-2 font-bold cargas-yellow-text">
+                                Current Pricing: Gasoline (Octane 95) is ~EGP 19.00/L vs. CNG is ~EGP 6.50/m³.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- RESULTS CARD: CARGAS YELLOW background for contrast -->
+                <div class="p-8 cargas-yellow text-gray-800 rounded-xl professional-shadow border-l-8 cargas-green">
+                    <h3 class="text-xl font-extrabold cargas-green-text mb-6">2. Your Projected Results (Output)</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <p class="text-sm font-light uppercase text-gray-600">Estimated Annual Savings</p>
+                            <!-- Results text now uses green for high contrast on yellow -->
+                            <p class="text-4xl font-extrabold cargas-green-text" id="result-savings">EGP 0</p>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <p class="text-sm font-light uppercase text-gray-600">Return on Investment (Break-Even)</p>
+                            <p class="text-4xl font-extrabold cargas-green-text" id="result-roi">0 months</p>
+                        </div>
+                        <div class="pt-4">
+                            <p class="font-semibold mb-2">ROI Visualization:</p>
+                            <!-- Progress bar track is light gray, progress itself is green -->
+                            <div class="w-full bg-gray-300 rounded-full h-4 overflow-hidden">
+                                <div class="cargas-green h-full transition-all duration-1000 ease-out" style="width: 0%;" id="roi-bar"></div>
+                            </div>
+                            <p class="text-xs mt-2 text-gray-700">Progress toward recovering your conversion investment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- A.2 Financing CTA -->
+            <div class="text-center mt-10">
+                <a href="https://example.com/financing-application" target="_blank" class="cargas-green text-white font-bold py-3 px-8 rounded-xl transition duration-300 hover:bg-green-800 professional-shadow uppercase text-lg">
+                    Convert Now, Pay Smart
+                </a>
+                <p class="text-sm text-gray-500 mt-3">Financing Made Easy: Access Central Bank's exclusive 5% CBE Loans.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. STRATEGIC PILLARS (A.2 Strategic Pillars) -->
+    <section id="strategic-pillars" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 cargas-green-text">
+                Our Strategic Foundation: The Four Pillars of CARGAS
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Pillar 1: Economic Benefits (Wallet/Coin SVG) -->
+                <div class="p-6 bg-white rounded-xl professional-shadow hover:shadow-lg transition duration-300 border-t-4 cargas-yellow">
+                    <div class="cargas-green-text text-3xl font-bold block mb-2">
+                        <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="7" y1="20" x2="7" y2="4"></line><line x1="17" y1="4" x2="17" y2="20"></line><path d="M12 10a2 2 0 0 1 0 4"></path></svg>
+                    </div> 
+                    <h3 class="text-xl font-bold mb-3 cargas-green-text">Economic Benefits</h3>
+                    <p class="text-gray-600">Saves <span class="font-bold">~50% on fuel costs vs gasoline</span> and promotes extended engine life, ensuring true profitability for vehicle owners.</p>
+                </div>
+
+                <!-- Pillar 2: Technical Superiority (Gear SVG) -->
+                <div class="p-6 bg-white rounded-xl professional-shadow hover:shadow-lg transition duration-300 border-t-4 cargas-yellow">
+                    <div class="cargas-green-text text-3xl font-bold block mb-2">
+                        <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m4.93 19.07 1.41-1.41"></path><path d="m17.66 6.34 1.41-1.41"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 cargas-green-text">Technical Superiority</h3>
+                    <p class="text-gray-600">Features <span class="font-bold">BP Clean Guard Technology</span> which prevents deposit buildup, reduces engine wear, and maximizes performance.</p>
+                </div>
+
+                <!-- Pillar 3: Safety Leadership (Shield Check SVG) -->
+                <div class="p-6 bg-white rounded-xl professional-shadow hover:shadow-lg transition duration-300 border-t-4 cargas-yellow">
+                    <div class="cargas-green-text text-3xl font-bold block mb-2">
+                        <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 cargas-green-text">Safety Leadership</h3>
+                    <p class="text-gray-600">We stress <span class="font-bold">Ministry-approved conversion technology</span> and our government affiliation, ensuring the highest safety standards.</p>
+                </div>
+
+                <!-- Pillar 4: National Contribution (Building/Location SVG) -->
+                <div class="p-6 bg-white rounded-xl professional-shadow hover:shadow-lg transition duration-300 border-t-4 cargas-yellow">
+                    <div class="cargas-green-text text-3xl font-bold block mb-2">
+                        <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="10" width="18" height="12" rx="2"></rect><path d="M12 10V2l-4 4"></path><path d="M12 10V2l4 4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 cargas-green-text">National Contribution</h3>
+                    <p class="text-gray-600">Highlights the environmental benefit (reduced emissions) and our commitment to local manufacturing (<span class="font-bold">"Made in Egypt"</span>).</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. MARKET IMPACT (Data Section) -->
+    <section id="impact" class="py-20 cargas-green text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-16">
+                Market Scale and Lubricants Opportunity
+            </h2>
+
+            <!-- Lubricants Market Visualization -->
+            <div class="bg-white text-gray-800 p-8 rounded-xl professional-shadow">
+                <h3 class="text-2xl font-bold cargas-green-text mb-4">Egypt Automotive Lubricants Market Projection</h3>
+                <p class="text-lg mb-6">A massive opportunity: The market size is currently <span class="font-bold">$1.9 Billion in 2024</span>, projected to reach <span class="font-bold">$3.5 Billion by 2032</span>.</p>
+                
+                <div class="space-y-4">
+                    <!-- 2024 Bar -->
+                    <div class="flex items-center space-x-4">
+                        <span class="font-bold w-24">2024:</span>
+                        <div class="flex-grow bg-gray-200 rounded-full h-8 overflow-hidden">
+                            <div class="cargas-green h-full text-white text-right pr-2 flex items-center justify-end font-semibold" style="width: 55%;">
+                                $1.9B
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2032 Projection Bar -->
+                    <div class="flex items-center space-x-4">
+                        <span class="font-bold w-24">2032 (Proj):</span>
+                        <div class="flex-grow bg-gray-200 rounded-full h-8 overflow-hidden">
+                            <div class="cargas-yellow h-full text-gray-800 text-right pr-2 flex items-center justify-end font-semibold" style="width: 100%;">
+                                $3.5B
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-sm mt-4 text-gray-500">Projected growth at a <span class="font-bold">3.7% CAGR</span>. Our target: <span class="font-bold">5% market share by Q4 2025</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. IMC ROADMAP (Horizontal Timeline Flow) -->
+    <section id="roadmap" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-6 cargas-green-text">
+                12-Month IMC Execution Plan (2025 Roadmap)
+            </h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+                Focused planning for Conversion & Lubricants Market Share Growth.
+            </p>
+
+            <!-- Horizontal Timeline Container -->
+            <div class="relative flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-4 pt-10 pb-4">
+                
+                <!-- Timeline Connector (Horizontal Line on Desktop) -->
+                <div class="hidden md:block absolute top-[138px] left-10 right-10 h-1 cargas-green opacity-30 z-0"></div>
+                
+                <!-- Q1 Card -->
+                <div class="timeline-card flex-1 bg-white p-6 rounded-xl professional-shadow border-t-4 cargas-yellow">
+                    <div class="text-2xl font-extrabold cargas-green-text mb-2">Q1</div>
+                    <h3 class="text-xl font-bold mb-3">Foundation & Digital Acceleration</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                        <li>Launch 'Safe. Clean. Economic.' brand campaign.</li>
+                        <li>Roll out loyalty mobile app.</li>
+                        <li>Staff training on technical upselling scripts.</li>
+                    </ul>
+                </div>
+                
+                <!-- Q2 Card -->
+                <div class="timeline-card flex-1 bg-white p-6 rounded-xl professional-shadow border-t-4 cargas-yellow">
+                    <div class="text-2xl font-extrabold cargas-green-text mb-2">Q2</div>
+                    <h3 class="text-xl font-bold mb-3">Conversion & Lubricant Sales Surge</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                        <li>Promote 5% CBE loans ('Convert Now, Pay Smart').</li>
+                        <li>Digital campaign: 'Clean Guard Challenge'.</li>
+                        <li>Enhanced Promotions (e.g., Buy 5L, get 1L free).</li>
+                        <li>Execute Ride & Drive events.</li>
+                    </ul>
+                </div>
+                
+                <!-- Q3 Card -->
+                <div class="timeline-card flex-1 bg-white p-6 rounded-xl professional-shadow border-t-4 cargas-yellow">
+                    <div class="text-2xl font-extrabold cargas-green-text mb-2">Q3</div>
+                    <h3 class="text-xl font-bold mb-3">CSR & Fleet Focus</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                        <li>Launch CSR Program ('Clean Engines, Clean Cities').</li>
+                        <li>Summer campaign ('Travel Smart, Save More').</li>
+                        <li>Advertise bulk lubricant deals for fleets.</li>
+                    </ul>
+                </div>
+
+                <!-- Q4 Card -->
+                <div class="timeline-card flex-1 bg-white p-6 rounded-xl professional-shadow border-t-4 cargas-yellow">
+                    <div class="text-2xl font-extrabold cargas-green-text mb-2">Q4</div>
+                    <h3 class="text-xl font-bold mb-3">National Pride & Year-End Push</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                        <li>Run the 'Made in Egypt' lubricants campaign.</li>
+                        <li>Boost Referral Program to EGP 500 credit.</li>
+                        <li>Promote Year-End conversion discounts.</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 6. PRODUCT LINE 1: BP VISCO (B.1 Premium Technical Solution) -->
+    <section id="visco-premium" class="py-20 cargas-green text-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <!-- START B.1 HEADLINE: Aesthetic Reference -->
+            <div class="inline-flex items-center space-x-2 bg-white/10 p-2 px-4 rounded-full mb-6">
+                <span class="text-2xl font-bold cargas-yellow-text">&#9728;</span> 
+                <h2 class="text-xl font-extrabold text-white">BP Visco: The Premium Technical Solution</h2>
+            </div>
+            <!-- END B.1 HEADLINE -->
+            
+            <h3 class="text-4xl font-light max-w-4xl mx-auto mb-12">
+                Driven by <span class="font-extrabold cargas-yellow-text">Clean Guard Technology</span> – Targeting High-Margin Synthetic Segments.
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-10 text-left items-center">
+                <!-- Content Column -->
+                <div class="space-y-6">
+                    <p class="text-xl font-semibold border-b border-white/30 pb-3">
+                        Positioning: Premium technical solution for passenger vehicles, focusing on the high-margin synthetic segment (Visco 5000).
+                    </p>
+                    <!-- START OF STANDARDIZED BLOCK B.1 -->
+                    <ul class="list-disc pl-5 space-y-3 text-lg opacity-90">
+                        <li><span class="font-bold">Core Differentiator / Focus:</span> BP Clean Guard Technology keeps engines cleaner for longer service life, reducing engine wear, and is essential for specialized NGV lubrication.</li>
+                        <li><span class="font-bold">Key Promotional Action:</span> Q2 Conversion Package: Free first oil change + 20% discount on BP Visco 5000. This links premium synthetic oil directly to new conversions.</li>
+                        <li><span class="font-bold">Target Metric / KPI:</span> Target <span class="font-bold">60% synthetic oils</span> (Visco 5000 focus) in the overall mix for increased profitability.</li>
+                        <li><span class="font-bold">Target Audience:</span> Performance Drivers & New CNG Converts seeking advanced, reliable engine protection.</li>
+                    </ul>
+                    <!-- END OF STANDARDIZED BLOCK B.1 -->
+                </div>
+
+                <!-- Visual Integration Column (Two Images - Dark Green Jug Focus) -->
+                <div class="flex justify-center space-x-4">
+                    <!-- B.1a - Visco 5000 Clean Guard Ad (Dark Green Jug) -->
+                    <div class="flex-1 max-w-[200px] bg-white p-4 rounded-xl text-center">
+                        <img src="https://placehold.co/300x300/004d33/FFC72C?text=BP+VISCO+5000+GREEN+JUG" 
+                             alt="BP Visco 5000 Clean Guard Ad (Dark Green Jug)" 
+                             class="mx-auto rounded-lg shadow-md mb-2">
+                        <p class="text-xs text-gray-600 font-semibold">Technical Ad: Visco 5000 (Green Jugs)</p>
+                    </div>
+
+                    <!-- B.1b - Visco CNG Station Ad (Green Jug with Nozzle Link) -->
+                    <div class="flex-1 max-w-[200px] bg-white p-4 rounded-xl text-center">
+                        <img src="https://placehold.co/400x200/004d33/FFC72C?text=BP+VISCO+CNG+SERVICE+LINK" 
+                             alt="BP Visco CNG at Station (Green Jug with Nozzle Link)" 
+                             class="mx-auto rounded-lg shadow-md mb-2">
+                        <p class="text-xs text-gray-600 font-semibold">Specialization: Visco CNG (Green Jug)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. PRODUCT LINE 2: CARGAS MOTOR OIL (B.2 Local Lubricants Group) -->
+    <section id="cargas-ngv" class="py-20 cargas-green text-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <!-- START B.2 HEADLINE: Modified to match B.1 exactly -->
+             <div class="inline-flex items-center space-x-2 bg-white/10 p-2 px-4 rounded-full mb-6 border border-white/20">
+                <!-- REPLACED EMOJI WITH NGV LOGO IMAGE, SIZED TO MATCH B.1 SUN EMOJI -->
+                <img src="https://ik.imagekit.io/weo7pcw8v/image-removebg-preview%20(1).png?updatedAt=1759139140244"
+                     alt="CARGAS NGV Logo" 
+                     class="h-6 w-6" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/24x24/FFC72C/00704A?text=NGV';" />
+                <h2 class="text-xl font-extrabold text-white">CARGAS Motor Oil: National Power, Local Protection</h2>
+            </div>
+            <!-- END B.2 HEADLINE -->
+            
+            <h3 class="text-4xl font-extrabold max-w-4xl mx-auto mb-12 cargas-yellow-text">
+                The Made in Egypt Solution – Driving Volume and Loyalty.
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-10 text-left items-center">
+                
+                <!-- Visual Integration Column (Two Images - Red Jug Focus) -->
+                <div class="flex justify-center space-x-4 order-2 md:order-1">
+                    <!-- B.2a - Q2 General Promotion Image (Replaced Placeholder) -->
+                    <div class="flex-1 max-w-[200px] bg-white p-4 rounded-xl text-center border-t-4 cargas-red">
+                        <img src="https://ik.imagekit.io/weo7pcw8v/Gemini_Generated_Image_usvzw5usvzw5usvz.png?updatedAt=1759139178740" 
+                             alt="CARGAS Buy 5L Get 1L Free Promotion" 
+                             class="mx-auto h-auto w-full rounded-lg shadow-md mb-2"
+                             onerror="this.onerror=null;this.src='https://placehold.co/300x300/8B0000/FFFFFF?text=Q2+Promo';" />
+                        <p class="text-xs text-gray-600 font-semibold">Q2 General Promotion: Buy 5L, Get 1L Free + Diagnostic</p>
+                    </div>
+
+                    <!-- B.2b - Q4 Loyalty/Referral Promotion Image (Replaced Placeholder) -->
+                    <div class="flex-1 max-w-[200px] bg-white p-4 rounded-xl text-center border-t-4 cargas-red">
+                        <img src="https://ik.imagekit.io/weo7pcw8v/Gemini_Generated_Image_6ldqpa6ldqpa6ldq.png?updatedAt=1759139179158" 
+                             alt="CARGAS EGP 500 Referral Boost Ad" 
+                             class="mx-auto h-auto w-full rounded-lg shadow-md mb-2"
+                             onerror="this.onerror=null;this.src='https://placehold.co/400x200/B22222/FFFFFF?text=Q4+EGP+500+BOOST+PROMO';" />
+                        <p class="text-xs text-gray-600 font-semibold">Q4 Loyalty/Referral Promotion Ad (EGP 500 Credit)</p>
+                    </div>
+                </div>
+
+                <!-- Content Column -->
+                <div class="space-y-6 order-1 md:order-2">
+                    <p class="text-xl font-semibold border-b border-white/30 pb-3 opacity-90">
+                        Positioning: New generation, locally produced, multi-grade lubricant group.
+                    </p>
+                    <!-- START OF STANDARDIZED BLOCK B.2 (Confirmed 4-point structure) -->
+                    <ul class="list-disc pl-5 space-y-3 text-lg opacity-90">
+                        <li><span class="font-bold">Core Differentiator / Focus:</span> National Contribution (Made in Egypt) and local manufacturing, leveraging immediate product recognition via the Red container color.</li>
+                        <li><span class="font-bold">Key Promotional Action:</span> Q4 Loyalty/Referral: Referral program boost to <span class="font-bold text-lg cargas-yellow-text">EGP 500 credit</span> (increased from EGP 300). This drives volume and repeat purchase loyalty.</li>
+                        <li><span class="font-bold">Target Metric / KPI:</span> Target <span class="font-bold">5% of Egypt lubricants market</span> by Q4 2025. This product contributes toward the 40% mineral/part synthetic mix.</li>
+                        <li><span class="font-bold">Target Audience:</span> Value Conscious & All CNG/NGV Users leveraging reliable quality and network accessibility across <span class="font-bold">336 CNG stations</span>.</li>
+                    </ul>
+                    <!-- END OF STANDARDIZED BLOCK B.2 -->
+
+                    <h4 class="text-xl font-bold cargas-yellow-text mt-6 pt-4 border-t border-white/20">Q3/Q4 Action Ideas (Value & Local Focus)</h4>
+                    <ul class="list-disc pl-5 space-y-3 text-lg opacity-90">
+                        <li>Develop strategic partnership with the Ministry of Local Development to co-promote CNG usage in public transport and municipality fleets, reinforcing local contribution.</li>
+                        <li>Launch a 'CNG Safety Inspection Week' campaign at all 336 stations, offering a free oil top-up with CARGAS Motor Oil NGV.</li>
+                        <li>Create a dedicated social media series highlighting local Egyptian manufacturers and their support for the CARGAS NGV product line, emphasizing "Made in Egypt" quality.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CONCLUSION AND NEXT STEPS (III. Conclusion) -->
+    <section id="conclusion" class="py-20 cargas-yellow text-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-6 cargas-green-text">
+                Conclusion: Driving Sustainable Growth
+            </h2>
+            <div class="bg-white p-8 rounded-xl professional-shadow">
+                <p class="text-xl mb-8 font-medium">
+                    Our success hinges on consistent execution, technical differentiation via the BP Visco line, and maintaining the balance between BP international standards and CARGAS's local leadership. The two-pronged approach—driving <span class="font-bold">conversion volume</span> and capturing <span class="font-bold">lubricant margin</span>—ensures profitability and sustainability.
+                </p>
+
+                <h4 class="text-2xl font-bold cargas-green-text mb-4">Key Achievement Targets (E.O.Y. 2025)</h4>
+                <div class="flex flex-wrap justify-between gap-4 mb-8">
+                    <div class="bg-green-50 p-3 rounded-lg flex-1 min-w-[250px] shadow-sm">
+                        <p class="font-extrabold text-3xl cargas-green-text">30,000</p>
+                        <p class="text-sm text-gray-600">Annual Conversions</p>
+                    </div>
+                    <div class="bg-green-50 p-3 rounded-lg flex-1 min-w-[250px] shadow-sm">
+                        <p class="font-extrabold text-3xl cargas-green-text">5%</p>
+                        <p class="text-sm text-gray-600">Lubricant Market Share</p>
+                    </div>
+                </div>
+
+                <h4 class="text-2xl font-bold cargas-green-text mb-4">Immediate Next Steps (Action Items)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Seek Ministry approval for enhanced budget allocation for Q2 promotions.</li>
+                    <li>Complete the BP brand compliance review for all creative materials (including the new CARGAS NGV visual).</li>
+                    <li>Launch the comprehensive Staff Training Program (sales scripts and technical knowledge) within the next <span class="font-bold">30 days</span>.</li>
+                    <li>Ensure Digital platform upgrades (Savings Calculator, Loyalty App) are completed by the <span class="font-bold">end of Q1</span>.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer - Fixed Contact Information (Fixed Bottom) -->
+    <footer class="fixed-footer bg-gray-800 text-gray-300 py-4">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-sm">
+            <p>&copy; 2025 CARGAS. All Rights Reserved. | <span class="cargas-green-text">Strengthening Egypt's Clean Energy Future.</span></p>
+            <div class="mt-2 sm:mt-0 space-x-4">
+                <span class="font-semibold">Helpline: <a href="tel:15844" class="hover:text-white">15844</a></span>
+                <span>|</span>
+                <span class="font-semibold">Website: <a href="https://cargas.com.eg" target="_blank" class="hover:text-white">cargas.com.eg</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactivity -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // --- 2. SAVINGS CALCULATOR LOGIC ---
+
+            const COST_GASOLINE_PER_LITER = 19.00; 
+            const COST_CNG_PER_M3 = 6.50; 
+            const CONVERSION_KIT_COST = 15000; 
+            const CNG_TO_GASOLINE_EQUIVALENCE = 1.0; // Conservative 1:1 assumption
+
+            const distanceInput = document.getElementById('distance');
+            const efficiencyInput = document.getElementById('efficiency');
+            
+            const resultSavings = document.getElementById('result-savings');
+            const resultRoi = document.getElementById('result-roi');
+            const roiBar = document.getElementById('roi-bar');
+
+            // Helper function for formatting currency
+            const formatEGP = (amount) => `EGP ${Math.round(amount).toLocaleString('en-US')}`;
+
+            const calculateSavings = () => {
+                const annualDistance = parseFloat(distanceInput.value);
+                const fuelEfficiency = parseFloat(efficiencyInput.value);
+
+                if (isNaN(annualDistance) || isNaN(fuelEfficiency) || annualDistance <= 0 || fuelEfficiency <= 0) {
+                    resultSavings.textContent = 'EGP 0';
+                    resultRoi.textContent = '0 months';
+                    roiBar.style.width = '0%';
+                    return;
+                }
+
+                // Calculate Annual Gasoline Cost
+                const annualGasolineLiters = annualDistance / fuelEfficiency;
+                const annualGasolineCost = annualGasolineLiters * COST_GASOLINE_PER_LITER;
+
+                // Calculate Annual CNG Cost
+                const annualCNG_m3 = annualGasolineLiters * CNG_TO_GASOLINE_EQUIVALENCE;
+                const annualCNGCost = annualCNG_m3 * COST_CNG_PER_M3;
+
+                // Calculate Annual Savings
+                const annualSavings = annualGasolineCost - annualCNGCost;
+
+                // Calculate ROI (Break-Even in Months)
+                const monthlySavings = annualSavings / 12;
+                let roiMonths = 0;
+                if (monthlySavings > 0) {
+                    roiMonths = CONVERSION_KIT_COST / monthlySavings;
+                }
+                
+                // Update Results UI
+                resultSavings.textContent = formatEGP(annualSavings);
+                resultRoi.textContent = `${Math.round(roiMonths)} months`;
+
+                // Update ROI Visualization Bar
+                const percentageCovered = Math.min((annualSavings / CONVERSION_KIT_COST) * 100, 100);
+                roiBar.style.width = `${percentageCovered}%`;
+            };
+
+            // Recalculate whenever inputs change
+            distanceInput.addEventListener('input', calculateSavings);
+            efficiencyInput.addEventListener('input', calculateSavings);
+
+            // Run on load with default values
+            calculateSavings();
+        });
+    </script>
+
+</body>
+</html>
